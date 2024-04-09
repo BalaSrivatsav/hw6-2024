@@ -10,7 +10,7 @@ window.addEventListener("load", function() {
 
 document.querySelector("#play").addEventListener("click", function() {
 	console.log("Play Video");
-	video.play()
+	video.play();
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
@@ -45,11 +45,11 @@ document.querySelector("#mute").addEventListener("click", function() {
 	console.log("Mute Video");
 	if(video.muted == false){
 		video.muted = true;
-		this.innerHTML = "Unmute"
+		this.innerHTML = "Unmute";
 	}
 	else{
 		video.muted = false;
-		this.innerHTML = "Mute"
+		this.innerHTML = "Mute";
 	}
 });
 
